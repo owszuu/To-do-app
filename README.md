@@ -1,7 +1,7 @@
 https://astonishing-zuccutto-d6e711.netlify.app/
 
 
-1. Opis projektu Aplikacja kliencka służąca do zarządzania zadaniami z modułem notatek oraz motywacyjnymi dodatkami pobieranymi z sieci.
+1. Opis projektu: Aplikacja kliencka służąca do zarządzania zadaniami z modułem notatek oraz motywacyjnymi dodatkami pobieranymi z sieci.
 
 2. Wymagania funkcjonalne .
 -Dodawanie i zapisywanie nowych zadań.
