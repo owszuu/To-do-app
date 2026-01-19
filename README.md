@@ -1,5 +1,5 @@
 https://astonishing-zuccutto-d6e711.netlify.app/
-Specyfikacja Projektu: Aplikacja To Do List Plus
+
 
 1. Opis projektu Aplikacja kliencka służąca do zarządzania zadaniami z modułem notatek oraz motywacyjnymi dodatkami pobieranymi z sieci.
 
