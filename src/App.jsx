@@ -67,7 +67,7 @@ function App() {
       </div>
 
       <div className="section-image">
-        <img src="/9645.jpg" alt="Painting" />
+        <img src={`${import.meta.env.BASE_URL}9645.jpg`} alt="Painting" />
       </div>
 
       <div className="list-section">
