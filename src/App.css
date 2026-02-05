@@ -6,7 +6,8 @@ html, body, #root {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Blokujemy przewijanie całej strony */
+  overflow-x: auto;
+  overflow-y: auto; /* Blokujemy przewijanie całej strony */
 }
 
 /* 2. KONTENER GŁÓWNY - Rozciągamy na cały ekran */
