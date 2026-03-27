@@ -27,16 +27,21 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch('https://nameday.abalin.net/api/V1/today')
-      .then(res => res.json())
-      .then(data => {
-        setDateInfo({
-          date: new Date().toLocaleDateString('pl-PL'),
-          names: data.nameday.pl
-        });
+  const url = encodeURIComponent('https://nameday.abalin.net/api/V1/today')
+  fetch(`https://api.allorigins.win/get?url=${url}`)
+    .then(res => res.json())
+    .then(data => {
+      const parsed = JSON.parse(data.contents)
+      setDateInfo({
+        date: new Date().toLocaleDateString('pl-PL'),
+        names: parsed.nameday?.pl ?? ''
       })
-      .catch(() => setDateInfo({ date: new Date().toLocaleDateString('pl-PL'), names: '' }));
-  }, []);
+    })
+    .catch(() =>
+      setDateInfo({ date: new Date().toLocaleDateString('pl-PL'), names: '' })
+    )
+}, [])
+
 
   const addTask = (e) => {
     e.preventDefault();
@@ -67,7 +72,7 @@ function App() {
       </div>
 
       <div className="section-image">
-        <img src="/9645.jpg" alt="Painting" />
+        <img src={`${import.meta.env.BASE_URL}9645.jpg`} alt="Painting" />
       </div>
 
       <div className="list-section">

@@ -1,16 +1,40 @@
-# React + Vite
+https://astonishing-zuccutto-d6e711.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+1. Opis projektu: Aplikacja kliencka służąca do zarządzania zadaniami z modułem notatek oraz motywacyjnymi dodatkami pobieranymi z sieci.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Wymagania funkcjonalne .
+   
+-Dodawanie i zapisywanie nowych zadań.
 
-## React Compiler
+-Oznaczanie zadań jako wykonane lub ich usuwanie.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-Widok szczegółowy z możliwością edycji notatek.
 
-## Expanding the ESLint configuration
+-Wyświetlanie cytatów i daty z zewnętrznych serwisów API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Wymagania pozafunkcjonalne
+   
+-Trwałość danych dzięki wykorzystaniu pamięci LocalStorage.
+
+-Responsywność interfejsu dostosowana do urządzeń mobilnych i desktopów.
+
+4.Potencjalni odbiorcy 
+
+-Osoby szukające prostego narzędzia do organizacji czasu. 
+
+-Studenci planujący codzienne obowiązki.
+
+5.Korzyści dla użytkownika 
+
+-Łatwiejsza kontrola nad codziennymi obowiązkami. 
+
+-Szybki dostęp do notatek i dodatkowych informacji bez odświeżania strony.
+
+6.Stos technologiczny 
+
+-Biblioteka React.js. 
+
+-Biblioteka React Router. 
+
+-Fetch API.
