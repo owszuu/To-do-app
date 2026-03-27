@@ -1,4 +1,4 @@
-https://astonishing-zuccutto-d6e711.netlify.app/
+https://todo-zuzs.netlify.app/
 
 
 1. Opis projektu: Aplikacja kliencka służąca do zarządzania zadaniami z modułem notatek oraz motywacyjnymi dodatkami pobieranymi z sieci.
